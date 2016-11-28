@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>632</width>
+    <height>691</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image : url(:/home/rios/stop.png);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QCheckBox" name="_5V_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>40</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5.0V</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="_3_3V_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>40</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">3.3V</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO8">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>60</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 8</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="_5V_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>60</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5.0V</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO9">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>80</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 9</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>80</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>120</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO16">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>120</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 16</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO15">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>100</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 15</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO7">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>100</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 7</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO0">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>140</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 0</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO1">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>140</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 1</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>220</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO13">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>240</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 13</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO4">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>180</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 4</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>160</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO2">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>160</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 2</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO14">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>260</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 14</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO12">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>220</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 12</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO10">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>260</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 10</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO6">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>240</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 6</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="_3_3V_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>200</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">3.3V</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO5">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>200</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 5</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO3">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>180</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 3</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO28">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>400</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 28</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO24">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>380</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 24</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_5">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>280</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO21">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>320</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 21</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_7">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>360</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO29">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>420</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 29</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO26">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>340</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 26</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO30">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>300</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 30</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO22">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>340</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 22</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO23">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>360</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 23</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_8">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>420</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO11">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>280</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 11</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO31">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>300</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 31</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GND_6">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>320</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GND</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO25">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>400</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="text">
+     <string notr="true">GPIO 25</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GPIO27">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>380</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GPIO 27</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Stop">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Right_Arm_Up">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Left_Arm_Up">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Right_Arm_Down">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Right_Arm_In">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Right_Arm_Out">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tilt_Body_Right">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>160</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Left_Arm_In">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Left_Arm_Down">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>120</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tilt_Body_Left">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>160</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Left_Arm_Out">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>180</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Walk_Forward">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>230</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Turn_Right">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>280</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Turn_Left">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>280</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Walk_Backward">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>350</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Select">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>420</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Right_Sensor_Program">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>430</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sonic_Sensor_Program">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>470</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Left_Sensor_Program">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>430</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Master_Command_Program">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>530</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Program_Play">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>580</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Select_LED">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IRLED">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>Background</zorder>
+   <zorder>_5V_1</zorder>
+   <zorder>_3_3V_1</zorder>
+   <zorder>GPIO8</zorder>
+   <zorder>_5V_2</zorder>
+   <zorder>GPIO9</zorder>
+   <zorder>GND_1</zorder>
+   <zorder>GND_2</zorder>
+   <zorder>GPIO16</zorder>
+   <zorder>GPIO15</zorder>
+   <zorder>GPIO7</zorder>
+   <zorder>GPIO0</zorder>
+   <zorder>GPIO1</zorder>
+   <zorder>GND_4</zorder>
+   <zorder>GPIO13</zorder>
+   <zorder>GPIO4</zorder>
+   <zorder>GND_3</zorder>
+   <zorder>GPIO2</zorder>
+   <zorder>GPIO14</zorder>
+   <zorder>GPIO12</zorder>
+   <zorder>GPIO10</zorder>
+   <zorder>GPIO6</zorder>
+   <zorder>_3_3V_2</zorder>
+   <zorder>GPIO5</zorder>
+   <zorder>GPIO3</zorder>
+   <zorder>GPIO28</zorder>
+   <zorder>GPIO24</zorder>
+   <zorder>GND_5</zorder>
+   <zorder>GPIO21</zorder>
+   <zorder>GND_7</zorder>
+   <zorder>GPIO29</zorder>
+   <zorder>GPIO26</zorder>
+   <zorder>GPIO30</zorder>
+   <zorder>GPIO22</zorder>
+   <zorder>GPIO23</zorder>
+   <zorder>GND_8</zorder>
+   <zorder>GPIO11</zorder>
+   <zorder>GPIO31</zorder>
+   <zorder>GND_6</zorder>
+   <zorder>GPIO25</zorder>
+   <zorder>GPIO27</zorder>
+   <zorder>Stop</zorder>
+   <zorder>Right_Arm_Up</zorder>
+   <zorder>Left_Arm_Up</zorder>
+   <zorder>Right_Arm_Down</zorder>
+   <zorder>Right_Arm_In</zorder>
+   <zorder>Right_Arm_Out</zorder>
+   <zorder>Tilt_Body_Right</zorder>
+   <zorder>Left_Arm_In</zorder>
+   <zorder>Left_Arm_Down</zorder>
+   <zorder>Tilt_Body_Left</zorder>
+   <zorder>Left_Arm_Out</zorder>
+   <zorder>Walk_Forward</zorder>
+   <zorder>Turn_Right</zorder>
+   <zorder>Turn_Left</zorder>
+   <zorder>Walk_Backward</zorder>
+   <zorder>Select</zorder>
+   <zorder>Right_Sensor_Program</zorder>
+   <zorder>Sonic_Sensor_Program</zorder>
+   <zorder>Left_Sensor_Program</zorder>
+   <zorder>Master_Command_Program</zorder>
+   <zorder>Program_Play</zorder>
+   <zorder>Select_LED</zorder>
+   <zorder>IRLED</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>632</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
