@@ -508,6 +508,9 @@
     </property>
    </widget>
    <widget class="QCheckBox" name="GPIO21">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -526,6 +529,9 @@
     </property>
     <property name="text">
      <string notr="true">GPIO 21</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QCheckBox" name="GND_7">
@@ -571,6 +577,9 @@
     </property>
    </widget>
    <widget class="QCheckBox" name="GPIO30">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -590,8 +599,14 @@
     <property name="text">
      <string notr="true">GPIO 30</string>
     </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QCheckBox" name="GPIO22">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>455</x>
@@ -610,6 +625,9 @@
     </property>
     <property name="text">
      <string notr="true">GPIO 22</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QCheckBox" name="GPIO23">
