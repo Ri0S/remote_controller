@@ -334,8 +334,6 @@ void MainWindow::checkEnable(){
     ui->GPIO14->setEnabled(true);
     ui->GPIO15->setEnabled(true);
     ui->GPIO16->setEnabled(true);
-    ui->GPIO21->setEnabled(true);
-    ui->GPIO22->setEnabled(true);
     ui->GPIO23->setEnabled(true);
     ui->GPIO24->setEnabled(true);
     ui->GPIO25->setEnabled(true);
@@ -343,7 +341,6 @@ void MainWindow::checkEnable(){
     ui->GPIO27->setEnabled(true);
     ui->GPIO28->setEnabled(true);
     ui->GPIO29->setEnabled(true);
-    ui->GPIO30->setEnabled(true);
     ui->GPIO31->setEnabled(true);
 }
 void MainWindow::checkDisable(){
@@ -364,8 +361,6 @@ void MainWindow::checkDisable(){
     ui->GPIO14->setDisabled(true);
     ui->GPIO15->setDisabled(true);
     ui->GPIO16->setDisabled(true);
-    ui->GPIO21->setDisabled(true);
-    ui->GPIO22->setDisabled(true);
     ui->GPIO23->setDisabled(true);
     ui->GPIO24->setDisabled(true);
     ui->GPIO25->setDisabled(true);
@@ -373,7 +368,6 @@ void MainWindow::checkDisable(){
     ui->GPIO27->setDisabled(true);
     ui->GPIO28->setDisabled(true);
     ui->GPIO29->setDisabled(true);
-    ui->GPIO30->setDisabled(true);
     ui->GPIO31->setDisabled(true);
 }
 void MainWindow::on_Button_clicked(bool){

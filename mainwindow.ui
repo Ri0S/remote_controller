@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>robosapienx</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image : url(:/home/rios/stop.png);</string>
@@ -1137,7 +1137,7 @@
      <x>0</x>
      <y>0</y>
      <width>632</width>
-     <height>23</height>
+     <height>19</height>
     </rect>
    </property>
   </widget>
