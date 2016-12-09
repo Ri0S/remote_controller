@@ -399,42 +399,9 @@ void MainWindow::on_Button_clicked(bool){
         send(irset[Button->objectName()] + selectcolor * 0x20);
         LEDLabel("Select_LED_WHITE");
     }
-
-    /*if(irset[Button->objectName()] == 0){
-        //  if(!ButtonName.compare("Select")){
-        switch(selectcolor){
-        case 0:
-            LEDLabel("Select_LED_GREEN");
-            selectcolor++;
-            break;
-        case 1:
-            LEDLabel("Select_LED_RED");
-            selectcolor++;
-            break;
-        case 2:
-            LEDLabel("Select_LED_WHITE");
-            selectcolor=0;
-            break;
-        default:
-            return;
-        }
-        checkEnable();
-        return;
-    }
-    //blink(500);
-*/
     selectcolor = 0;
     checkEnable();
 }
-/*void MainWindow::IRLabel(QString name){
-    QString str = "./icon/";
-    str.append(name);
-    QImage img(str);
-    QPixmap pixmap = QPixmap::fromImage(img);
-    ui->IRLED->setPixmap(pixmap);
-    ui->IRLED->resize(pixmap.width(), pixmap.height());
-    ui->IRLED->show();
-}*/
 
 void MainWindow::LEDLabel(QString name){
     QString str = "./icon/";
@@ -446,15 +413,3 @@ void MainWindow::LEDLabel(QString name){
     ui->Select_LED->show();
 }
 
-/*void MainWindow::on_RightArmUp_clicked()
-{
-    checkDisable();
-    int command = 1;
-    if(selectcolor == GREEN)
-        command = 2;
-    else if(selectcolor == RED)
-        command = 3;
-    send(command);
-    selectcolor = 0;
-    checkEnable();
-}*/
